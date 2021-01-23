@@ -57,10 +57,10 @@ module.exports = {
     extensions: ['.ts', '.js'],
   },
   output: {
-    library: 'yorkie',
-    libraryTarget: 'umd',
-    libraryExport: 'default',
-    filename: 'yorkie.js',
+    // library: 'yorkie',
+    // libraryTarget: 'umd',
+    // libraryExport: 'default',
+    // filename: 'yorkie.js',
     path: path.resolve(__dirname, './dist'),
   },
   plugins: [

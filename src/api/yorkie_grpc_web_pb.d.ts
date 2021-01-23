@@ -1,3 +1,4 @@
+// @ts-ignore
 import * as grpcWeb from 'grpc-web';
 
 import {

@@ -1022,7 +1022,9 @@ export namespace JSONElement {
   }
 
   export class Object extends jspb.Message {
+    // @ts-ignore
     getNodesList(): Array<RHTNode>;
+    // @ts-ignore
     setNodesList(value: Array<RHTNode>): Object;
     clearNodesList(): Object;
     addNodes(value?: RHTNode, index?: number): RHTNode;
@@ -1052,6 +1054,7 @@ export namespace JSONElement {
 
   export namespace Object {
     export type AsObject = {
+      // @ts-ignore
       nodesList: Array<RHTNode.AsObject>,
       createdAt?: TimeTicket.AsObject,
       movedAt?: TimeTicket.AsObject,
@@ -1061,7 +1064,9 @@ export namespace JSONElement {
 
 
   export class Array extends jspb.Message {
+    // @ts-ignore
     getNodesList(): Array<RGANode>;
+    // @ts-ignore
     setNodesList(value: Array<RGANode>): Array;
     clearNodesList(): Array;
     addNodes(value?: RGANode, index?: number): RGANode;
@@ -1091,6 +1096,7 @@ export namespace JSONElement {
 
   export namespace Array {
     export type AsObject = {
+      // @ts-ignore
       nodesList: Array<RGANode.AsObject>,
       createdAt?: TimeTicket.AsObject,
       movedAt?: TimeTicket.AsObject,
@@ -1143,7 +1149,9 @@ export namespace JSONElement {
 
 
   export class Text extends jspb.Message {
+    // @ts-ignore
     getNodesList(): Array<TextNode>;
+    // @ts-ignore
     setNodesList(value: Array<TextNode>): Text;
     clearNodesList(): Text;
     addNodes(value?: TextNode, index?: number): TextNode;
@@ -1173,6 +1181,7 @@ export namespace JSONElement {
 
   export namespace Text {
     export type AsObject = {
+      // @ts-ignore
       nodesList: Array<TextNode.AsObject>,
       createdAt?: TimeTicket.AsObject,
       movedAt?: TimeTicket.AsObject,
@@ -1182,7 +1191,9 @@ export namespace JSONElement {
 
 
   export class RichText extends jspb.Message {
+    // @ts-ignore
     getNodesList(): Array<RichTextNode>;
+    // @ts-ignore
     setNodesList(value: Array<RichTextNode>): RichText;
     clearNodesList(): RichText;
     addNodes(value?: RichTextNode, index?: number): RichTextNode;
@@ -1212,6 +1223,7 @@ export namespace JSONElement {
 
   export namespace RichText {
     export type AsObject = {
+      // @ts-ignore
       nodesList: Array<RichTextNode.AsObject>,
       createdAt?: TimeTicket.AsObject,
       movedAt?: TimeTicket.AsObject,
