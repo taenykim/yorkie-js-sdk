@@ -16,9 +16,9 @@
 
 import Long from 'long';
 import { Client, ClientOptions, ClientEventType } from './core/client';
-import { Document } from './document/document';
+import { Document, DocEventType } from './document/document';
 
-export { Client, Document, ClientEventType };
+export { Client, Document, ClientEventType, DocEventType };
 export { JSONElement } from './document/json/element';
 export { JSONObject } from './document/json/object';
 export { JSONArray } from './document/json/array';
